@@ -12,15 +12,11 @@ npm run dev
 yarn dev
 # 或
 pnpm dev
-# 或
-bun dev
 ```
 
 在浏览器打开 `http://localhost:3000` 查看效果。
 
 你可以通过修改 `app/page.tsx` 开始编辑页面，保存后会自动热更新。
-
-本项目使用 [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) 自动优化并加载 [Geist](https://vercel.com/font) 字体。
 
 ## 了解更多
 
