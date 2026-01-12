@@ -1,8 +1,19 @@
+// app/page.tsx - 在页面中使用 Header 组件
+import Header from '@/components/Header';
+import WeatherWidget from '@/components/WeatherWidget';
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      hello, next.js - vercel test deploy demo
+    <div>
+      <Header />
+      
+      <main className="container mx-auto p-6">
+        <h2 className="text-2xl font-bold mb-4">欢迎访问</h2>
+        <p className="text-gray-600">
+          这个页面演示了客户端组件如何访问环境变量
+        </p>
+        <WeatherWidget />
+      </main>
     </div>
   );
 }
