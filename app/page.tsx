@@ -8,7 +8,7 @@ export default function HomePage() {
       <Header />
       
       <main className="container mx-auto p-6">
-        <h2 className="text-2xl font-bold mb-4">欢迎访问</h2>
+        <h2 className="text-2xl font-bold mb-4">欢迎访问 Next.js 16</h2>
         <p className="text-gray-600">
           这个页面演示了客户端组件如何访问环境变量
         </p>
